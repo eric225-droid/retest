@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Killer Dev - Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-contact">
+  <nav>
+    <img src="logo.png" alt="Logo de Killer" height="40" />
+    <a href="index.html">Accueil</a> |
+    <a href="about.html">À propos</a> |
+    <a href="projects.html">Projets</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Contactez-moi</h1>
+  <p>Tu peux me laisser un message ici :</p>
+
+  <!-- Formulaire avec WhatsApp -->
+  <form action="https://formspree.io/f/xldndbaa" method="POST">
+    <label for="nom">Nom :</label><br />
+    <input type="text" id="nom" name="nom" required /><br /><br />
+
+    <label for="email">Email :</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="whatsapp">Numéro WhatsApp :</label><br />
+    <input type="tel" id="whatsapp" name="whatsapp" placeholder="+2250102030405" /><br /><br />
+
+    <label for="message">Message :</label><br />
+    <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <!-- Lien WhatsApp -->
+  <p>Ou contacte-moi directement sur :</p>
+  <ul>
+    <li>
+      📲 <a href="https://wa.me/2250565696530" target="_blank" style="color: green; font-weight: bold;">
+        WhatsApp
+      </a>
+    </li>
+    <li>
+      📸 <a href="https://www.instagram.com/le_bulco" target="_blank" style="color: #E4405F; font-weight: bold;">
+        Instagram
+      </a>
+    </li>
+    <li>
+      👻 <a href="https://www.snapchat.com/add/Xx_killer" target="_blank" style="color: #FFFC00; font-weight: bold;">
+        Snapchat
+      </a>
+    </li>
+  </ul>
+
+  <footer>
+    <p>&copy; 2025 Killer Dev. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>

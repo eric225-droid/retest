@@ -1,0 +1,100 @@
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 20px;
+  background-color: white;
+}
+
+/* Couleurs différentes selon la page */
+.page-accueil {
+  background-color: lightblue;
+}
+
+.page-about {
+  background-color: lightgreen;
+}
+
+.page-projects {
+  background-color: lightyellow;
+}
+
+.page-contact {
+  background-color: lightcoral;
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 20px;
+}
+
+nav img {
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+nav a {
+  color: navy;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Animation simple pour les titres */
+h1 {
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Formulaire */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
